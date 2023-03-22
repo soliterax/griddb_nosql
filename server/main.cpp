@@ -70,7 +70,7 @@ const char8_t *const SYS_NODE_FILE_NAME = "gs_node.json";
 const char8_t *const SYS_DEVELOPER_FILE_NAME = "gs_developer.json";
 const char8_t *const GS_CLUSTER_PARAMATER_DIFF_FILE_NAME = "gs_diff.json";
 
-const char8_t *const GS_TRACE_SECRET_HEX_KEY = "7B790AB2C82F01B3";
+const char8_t *const GS_TRACE_SECRET_HEX_KEY = "";
 
 static void autoJoinCluster(const Event::Source &eventSource,
 	util::StackAllocator &alloc, SystemService &sysSvc, PartitionTable &pt,
